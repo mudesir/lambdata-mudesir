@@ -8,4 +8,3 @@ import numpy
 def df_cleanser(df):
     """Clean pd.DataFrame"""
     pass
-    
