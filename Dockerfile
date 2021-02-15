@@ -14,3 +14,5 @@ RUN apt-get update && \
   apt-get upgrade -y && \
   apt-get install python3-pip curl -y && \
   pip3 install pandas
+
+RUN pip3 install -i https://test.pypi.org/simple/ lambdata-mudesir
